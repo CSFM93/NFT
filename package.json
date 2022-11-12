@@ -1,0 +1,16 @@
+{
+  "name": "nft",
+  "version": "1.0.0",
+  "description": "Non-fungible Token (NFT) ===================",
+  "scripts": {
+    "build": "./scripts/build.sh",
+    "test": "npm run test:unit && npm run test:integration",
+    "test:unit": "cd contract && cargo test -- --nocapture",
+    "test:integration": "cd integration-tests/ts/ && npm test",
+    "postinstall": "cd integration-tests/ts/ && npm install"
+  },
+  "devDependencies": {
+    "near-cli": "^3.3.0"
+  },
+  "dependencies": {}
+}

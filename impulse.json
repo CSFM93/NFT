@@ -1,0 +1,67 @@
+{
+  "viewMethods": [
+    {
+      "name": "nft_metadata",
+      "args": []
+    },
+    {
+      "name": "nft_tokens_for_owner",
+      "args": [
+        {
+          "name": "account_id",
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "changeMethods": [
+    {
+      "name": "new_default_meta",
+      "args": [
+        {
+          "name": "owner_id",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "name": "nft_mint",
+      "args": [
+        {
+          "name": "token_id",
+          "value": ""
+        },
+        {
+          "name": "receiver_id",
+          "value": ""
+        },
+        {
+          "name": "token_metadata",
+          "value": {
+            "title": "Olympus Mons",
+            "description": "Tallest mountain in charted solar system",
+            "media": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Olympus_Mons_alt.jpg/1024px-Olympus_Mons_alt.jpg",
+            "copies": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "nft_transfer",
+      "args": [
+        {
+          "name": "token_id",
+          "value": ""
+        },
+        {
+          "name": "receiver_id",
+          "value": ""
+        },
+        {
+          "name": "memo",
+          "value": ""
+        }
+      ]
+    }
+  ]
+}
